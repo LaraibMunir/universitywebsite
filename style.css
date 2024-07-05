@@ -1,0 +1,209 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #fff;
+    padding: 20px 0;
+  }
+  
+  .container {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+  }
+  
+  .logo {
+    flex-grow: 0;
+  }
+  
+  nav {
+    display: flex;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #000;
+  }
+  
+  /* Additional styles you might want to consider */
+  nav a:hover {  /* Change link color on hover */
+    color: #007bff;  /* Example blue hover color */
+  }
+  
+  .search-box {
+    /* Add styles for the search box (optional) */
+  }
+  
+  .user-account {
+    /* Add styles for the user account section (optional) */
+  }
+  
+  .hero {
+    /* Add styles for the hero section (optional) */
+  }
+  
+  .heading-container {
+    padding-top: 40px; /* Adjust the value (in pixels) for desired margin */
+    padding-bottom: 0%;
+  }
+
+  .admission{
+    align: center;
+    padding-bottom: 5%;
+    margin-left: 30%;
+  }
+
+  .admission-box{
+    width: 10%;
+    border-radius: 2%;
+    border-color: red;
+    align: center;
+    background-color: red; /* Set the background color to red */
+    color: white;
+    padding: 20px; /* Add some padding for spacing */
+    margin: 0 auto; /* Center the box horizontally */
+    margin-bottom: 5px;
+  }
+
+  .course-categories {
+     /* Add styles for the course categories section (optional) */
+     width: 45%;
+     margin-left: 30px;
+     display: flex;
+     overflow: auto;
+     align: center;
+     margin: 0 auto;
+     margin-bottom: 3%;
+  }
+  
+  .course-grid {
+    display: flex; /* Example flexbox layout for course items (optional) */
+    padding: 20px;   /* Example padding for pricing items (optional) */
+    border: 2px solid #ddd;  /* Wrap items to multiple lines if needed (optional) */
+  }
+  
+  .course-item {
+    /* Add styles for individual course items (optional) */
+    padding: 40px;   /* Example padding for pricing items (optional) */
+    border: 1px solid #ddd; /* Example margin for course items (optional) */
+    background-color: #f5f5f5;
+    justify-content: space-around; 
+    display: flex;
+    
+  }
+  
+  .plans-pricing {
+    /* Add styles for the plans and pricing section (optional) */
+    margin-top: 20px; /* Add 20 pixels of space above the element */
+    margin-bottom: 20px; 
+  }
+  
+  .pricing-table {
+    display: flex; /* Example flexbox layout for pricing items (optional) */
+    justify-content: space-around;  /* Distribute items evenly (optional) */
+  }
+  
+  .pricing-item {
+    /* Add styles for individual pricing items (optional) */
+    padding: 20px;   /* Example padding for pricing items (optional) */
+    border: 1px solid #ddd;  /* Example border for pricing items (optional) */
+    background-color: #f5f5f5;
+  }
+  
+  body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+    background-color: #f5f5f5; /* Light gray background color */
+    padding: 30px 0;
+    padding: 30px 0;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap; /* Wrap footer elements if needed */
+    justify-content: space-between; /* Distribute elements horizontally */
+}
+
+.footer-top {
+    display: flex;
+    flex-basis: 100%; /* Make footer-top span the full width */
+}
+
+.footer-info {
+    flex-grow: 1; /* Allow footer-info to grow and fill space */
+}
+
+.social-links,
+.footer-form {
+    text-align: right; /* Align social links and form to the right */
+}
+
+.social-links img {
+    margin-left: 10px;
+}
+
+.footer-form {
+    margin-top: 15px; /* Add some space above the form */
+}
+
+.footer-form h4 {
+    margin-bottom: 5px; /* Add space below the heading */
+}
+
+.footer-form input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px; /* Rounded corners for the input field */
+}
+
+.footer-form button {
+    padding: 10px 15px;
+    background-color: #007bff; /* Blue button color */
+    color: #fff; /* White button text */
+    border: none;
+    border-radius: 4px; /* Rounded corners for the button */
+    cursor: pointer; /* Indicate clickable button */
+}
+
+.footer-bottom {
+    width: 100%; /* Span the entire width of the footer */
+    text-align: center; /* Center the copyright text */
+}
+
+/* Optional styles for header and main content (not provided in the image) */
+
+header {
+    /* Add styles for the header section */
+}
+
+main {
+    /* Add styles for the main content section */
+}
+
+
+
+
+
+  
